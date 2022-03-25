@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Kevin's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/alpha.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    </head>
+    <!--End Head-->
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <!--End Navbar-->
+
+        <!--Breaks-->
+        <!--inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+        <!--End Breaks-->
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="img/video/video.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <!--End Background video-->
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Kevin O'Connor's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>One machine can do the work of fifty ordinary men...
+                        <br>No machine can do the work of one extraordinary man.
+                    </q>
+                    <br> -Elbert Hubbard
+                    <br>
+                    <br> My name is Kevin O'Connor. Welcome to my portfolio website. On it, I will tell you a little about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+        <!--End Video text-->
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2b">
+                <img src="img/forest.jpg" alt="Getting lost in a forest wouldn't be so bad...">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About Me</h1>
+                <br>
+                <p>
+                    I am a software developer who loves to code! I enjoy traveling and being out in nature almost as much as technology. 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and look forward to working with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+        <!--End About section-->
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <br>
+                <p>
+                    You can view my past and current coding projects on my GitHub profile below:
+                    <br>
+                    <p class="center"><a href="https://github.com/rebutta" target="_blank">Kevin (rebutta) O'Connor's Github</a></p>
+                    <br>
+                    <p class="bottom">Or click the Github image to the right!</p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2b">
+                <a href="https://github.com/rebutta" target="_blank"><img src="img/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+        <!--End GitHub section-->
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="img/whiteboard.jpg" alt="Some ideas are best thought of, together!">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <br>
+                <form action="https://formspree.io/f/moqrnqnk" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, from formspree.io -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <!--End Contact Section-->
+
+        <!--Footer Section-->
+        <footer>
+            <p>
+                <br>
+                <p class="bottom">Modified and styled by Kevin O'Connor</p>
+            </p>
+        </footer>
+        <!--End Footer Section-->
+
+    </body>
+    <!--End Body-->
+</html>
