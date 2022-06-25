@@ -234,7 +234,7 @@ footer {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 10px;
     padding-top: 1%; /* This ensures there is space between the top of the column and our headings */
-    height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    height: 600px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #f77f54; /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -250,7 +250,7 @@ footer {
     width: 50%;
     padding: 10px;
     padding-top: 10px;
-    height: 400px;
+    height: 600px;
     background-color: #2a5792;
 }
 
@@ -259,7 +259,7 @@ footer {
     width: 50%;
     padding: 10px;
     padding-top: 1.5%;
-    height: 400px;
+    height: 600px;
     background-color: #2a5792;
 }
 
