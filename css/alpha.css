@@ -10,7 +10,7 @@ body {
     transition: 2s opacity; /* 2 second fade in */
     letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewport width */
     font-family: Avant Garde, Helvetica;
-    font-size: 1.5vw; 
+    font-size: 1vw; 
     overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
     user-select: none; /* This prevents the text on the webpage from being highlighted by the user */
 }
@@ -479,6 +479,46 @@ button:hover, .form-container .btn:hover {
     border-color: black;
 }
 /***** End of Contact Form Styling *****/
+
+/***** Footer Link Styling *****/
+.footer-text {
+
+}
+
+ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+}
+
+@media (min-width: 500px) {
+    ul {
+        grid-auto-flow: column;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+    a:hover {
+        box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+    }
+
+li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+li:hover ~ li p {
+    animation: wave-animation 0.3s infinite;
+}
+/***** End Footer Link Styling *****/
+
 
 /***** Media Query Section *****/
 /*Media rules for paragraph font size for different screen sizes*/
